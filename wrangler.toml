@@ -1,0 +1,15 @@
+name = "marathonsoftware"
+type = "javascript"
+account_id = "b097132271325f7205e36f860ccf85bb"
+workers_dev = true
+route = "*marathonsoftware.ltd.uk/*"
+zone_id = "5d80a856d7e065493865e1fe1c0c4cac"
+compatibility_date = "2022-03-17"
+
+[site]
+bucket = ".output/public"
+entry-point = ".output"
+
+[build]
+command = "true"
+upload.format = "service-worker"
